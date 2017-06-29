@@ -1,7 +1,9 @@
 # botchat-facebook-when-slepping
 
-auto reply message when you slepping :D
+auto reply message when you slept :D
 
+type your account
+<br>
 npm install
 <br>
 npm start
