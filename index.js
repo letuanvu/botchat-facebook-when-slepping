@@ -3,7 +3,7 @@ const $ = require("jquery");
 
 var answeredThreads = [];
 
-login({email: "happysmile1059@gmail.com", password: "letuanvu95"}, function callback (err, api) {
+login({email: "YOUR_EMAIL", password: "YOUR_PASS"}, function callback (err, api) {
     if(err) return console.error(err);
 
 
