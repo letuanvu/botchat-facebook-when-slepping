@@ -11,7 +11,7 @@ login({email: "YOUR_EMAIL", password: "YOUR_PASS"}, function callback (err, api)
         var d = new Date();
         var h = d.getHours();
 
-        if((h >= 21 || h <= 6)){
+        if((h >= 21 || h <= 6 && !message.isGroup)){
             api.getUserInfo(message.senderID, function(err, ret) {
                 if(err) return console.error(err);
 
